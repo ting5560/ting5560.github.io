@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>李婷婷｜视觉设计师</title>
+  <meta name="description" content="李婷婷的个人简历与作品集，聚焦电商视觉、品牌设计、AI 工作流与动态内容。">
+  <style>
+    :root{--bg:#09090b;--panel:#121215;--text:#f2efe9;--muted:#9d999f;--line:rgba(255,255,255,.13);--red:#c4263c}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}body{margin:0;color:var(--text);background:radial-gradient(circle at 78% 8%,rgba(130,18,39,.15),transparent 28rem),var(--bg);font-family:Inter,"PingFang SC","Microsoft YaHei",sans-serif}a{color:inherit;text-decoration:none}::selection{background:#991a2d;color:#fff}
+    header{position:sticky;z-index:9;top:0;height:72px;padding:0 clamp(24px,6vw,90px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;border-bottom:1px solid var(--line);background:rgba(9,9,11,.86);backdrop-filter:blur(18px)}
+    .logo{font-size:24px;font-weight:700;letter-spacing:-.08em}.nav{height:100%;display:flex;align-items:center;gap:clamp(22px,4vw,56px);font-size:14px}.nav a{height:100%;display:grid;place-items:center;position:relative;color:#cbc7c5}.nav a:after{content:"";position:absolute;left:0;right:100%;bottom:16px;height:2px;background:var(--red);transition:.22s}.nav a:hover:after{right:0}.dot{justify-self:end;width:10px;height:10px;border-radius:50%;background:var(--red)}
+    .hero{min-height:calc(100vh - 72px);display:grid;grid-template-columns:minmax(0,1fr) minmax(380px,.9fr);align-items:center;gap:40px;padding:80px clamp(24px,8vw,128px);border-bottom:1px solid var(--line);overflow:hidden}
+    .eyebrow,.index{margin:0;color:#9d989f;font:600 11px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.25em}.hero h1{margin:26px 0 0;font-size:clamp(66px,9vw,132px);line-height:.92;letter-spacing:-.08em}.role{margin:34px 0 0;max-width:680px;font-size:clamp(20px,2.4vw,32px);line-height:1.4;font-weight:650}.tagline{margin:18px 0 0;color:var(--muted);letter-spacing:.14em}.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}.pills span{padding:10px 17px;border:1px solid rgba(255,255,255,.25);border-radius:3px;font-size:13px}.actions{display:flex;gap:14px;margin-top:38px}.button{min-width:190px;height:54px;padding:0 22px;display:flex;align-items:center;justify-content:space-between;border:1px solid rgba(255,255,255,.28);border-radius:3px;font-size:14px;font-weight:650;transition:.2s}.button.primary{border-color:#9c172c;background:linear-gradient(135deg,#8c1427,var(--red))}.button:hover{transform:translateY(-2px)}
+    .art{position:relative;min-height:590px;perspective:900px;filter:drop-shadow(0 30px 25px #000)}.orbit{position:absolute;left:46%;top:48%;width:min(30vw,440px);aspect-ratio:1;border-radius:50%;border:1px solid rgba(255,255,255,.28);background:radial-gradient(circle at 38% 34%,#29292f,#121214 48%,#050506 72%);transform:translate(-20%,-48%) rotateY(50deg)}.panel{position:absolute;left:48%;top:48%;width:min(14vw,210px);height:min(38vw,520px);border:1px solid rgba(255,255,255,.4);background:linear-gradient(120deg,rgba(255,255,255,.1),rgba(18,18,22,.7) 55%,#050506);box-shadow:inset -2px 0 var(--red)}.p1{transform:translate(-130%,-53%) rotateY(-28deg) rotateZ(-7deg);border-radius:10px 0 70px}.p2{transform:translate(-35%,-60%) rotateY(18deg)}.p3{height:min(29vw,400px);transform:translate(48%,-40%) rotateY(26deg) rotateZ(4deg);border-radius:0 70px 5px 0}.glow{position:absolute;left:30%;right:0;bottom:11%;height:20px;background:radial-gradient(ellipse,rgba(196,38,60,.48),transparent 68%);filter:blur(12px)}
+    section{padding:110px clamp(24px,8vw,128px);border-bottom:1px solid var(--line)}.heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:46px}.heading h2,.about h2,.contact h2{margin:14px 0 0;font-size:clamp(42px,5.5vw,76px);line-height:1.05;letter-spacing:-.06em}.heading>p{margin:0;color:var(--muted);line-height:1.8;font-size:14px}
+    .projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{overflow:hidden;border:1px solid var(--line);background:var(--panel);transition:.25s}.card:hover{transform:translateY(-5px);border-color:rgba(255,255,255,.3)}.visual{position:relative;height:260px;padding:24px;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px),radial-gradient(circle at 70% 70%,#55101d,#151518 48%);background-size:42px 42px,42px 42px,auto}.visual:before,.visual:after{content:"";position:absolute;left:32%;top:12%;width:34%;height:72%;border:1px solid rgba(255,255,255,.32);transform:skewY(-16deg);box-shadow:24px 28px 0 rgba(20,20,23,.72),25px 29px 0 rgba(196,38,60,.55)}.visual:after{left:auto;right:-8%;top:22%;width:230px;height:230px;border-radius:50%;box-shadow:none;background:transparent}.visual span{font:11px ui-monospace,monospace;color:#aaa4aa}.card-body{padding:28px 30px 32px}.card h3{margin:0;font-size:23px}.card p{margin:15px 0 0;color:var(--muted);font-size:14px;line-height:1.8}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.tags b{padding:6px 9px;border:1px solid var(--line);font-size:11px;font-weight:500;color:#bbb7bc}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(60px,9vw,150px);background:#0d0d0f}.about .lead{margin:32px 0 0;color:var(--muted);font-size:16px;line-height:2}.skills{border-top:1px solid var(--line)}.skill{display:grid;grid-template-columns:42px 120px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--line)}.skill b{font-size:17px}.skill span{color:var(--red);font:10px ui-monospace,monospace}.skill p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+    .impact{background:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px),#09090b;background-size:64px 64px}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid var(--line);border-top:1px solid var(--line);background:rgba(9,9,11,.76)}.impact-grid article{min-height:250px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.impact-grid small{color:var(--red);letter-spacing:.16em}.impact-grid h3{margin:64px 0 14px;font-size:23px}.impact-grid p{margin:0;color:var(--muted);font-size:13px;line-height:1.75}
+    .contact{min-height:540px;display:flex;flex-direction:column;justify-content:space-between;background:radial-gradient(circle at 80% 45%,rgba(140,20,42,.25),transparent 24rem),#101013}.contact-main{display:flex;justify-content:space-between;align-items:end;gap:40px}.contact-main p{margin:0;color:#c4c0c3;line-height:1.9}.note{margin-top:24px!important;color:#77737a!important;font-size:12px}.top{width:fit-content;padding-bottom:7px;border-bottom:1px solid rgba(255,255,255,.4);font-size:13px}footer{padding:30px clamp(24px,8vw,128px);display:flex;justify-content:space-between;color:#777279;font-size:10px;letter-spacing:.14em}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.art{position:absolute;inset:90px -20% auto 48%;min-height:480px;opacity:.48;z-index:0}.hero-copy{position:relative;z-index:1}.about{grid-template-columns:1fr}.impact-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){header{height:62px;grid-template-columns:1fr auto}.nav{gap:16px;font-size:12px}.nav a:nth-child(3),.dot{display:none}.hero{min-height:calc(100vh - 62px);padding:88px 22px}.hero h1{font-size:76px}.role{font-size:20px}.art{inset:80px -70% auto 18%;opacity:.35}.actions{flex-direction:column}.button{width:100%}section{padding:78px 22px}.heading{display:block}.heading>p{margin-top:20px}.projects{grid-template-columns:1fr}.visual{height:220px}.skill{grid-template-columns:34px 1fr}.skill p{grid-column:2}.impact-grid{grid-template-columns:1fr}.contact-main{display:block}.contact-main>div{margin-top:35px}footer{display:block}footer span{display:block;margin-top:8px}}
+    @media print{header,.actions,.art,.top{display:none}.hero{min-height:auto;padding-top:60px}.hero h1{font-size:70px}body{background:#fff;color:#111}.hero,section{border-color:#ddd}.eyebrow,.index,.tagline,.heading>p,.card p,.about .lead,.skill p,.impact-grid p{color:#555}.card,.about,.impact,.contact{background:#fff}.projects{grid-template-columns:1fr 1fr}.visual{height:120px}.impact-grid{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="#top" aria-label="返回首页">LT</a>
+    <nav class="nav" aria-label="主导航"><a href="#top">首页</a><a href="#work">项目</a><a href="#about">关于</a><a href="#contact">联系</a></nav>
+    <span class="dot" aria-label="可沟通新机会"></span>
+  </header>
+  <main id="top">
+    <div class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">VISUAL DESIGNER · 2026 PORTFOLIO</p>
+        <h1>李婷婷</h1>
+        <p class="role">视觉设计师 / AI 驱动的电商与品牌设计师</p>
+        <p class="tagline">让创意系统化，让视觉更有效</p>
+        <div class="pills"><span>电商视觉</span><span>品牌设计</span><span>AI 工作流</span><span>动态内容</span></div>
+        <div class="actions"><a class="button primary" href="#work">查看精选项目 <b>→</b></a><a class="button" href="#about">了解我的经历 <b>↘</b></a></div>
+      </div>
+      <div class="art" aria-hidden="true"><div class="orbit"></div><div class="panel p1"></div><div class="panel p2"></div><div class="panel p3"></div><div class="glow"></div></div>
+    </div>
+    <section id="work">
+      <div class="heading"><div><p class="index">02 / SELECTED WORK</p><h2>精选项目</h2></div><p>从产品事实和商业目标出发，<br>把内容、视觉与 AI 流程连接起来。</p></div>
+      <div class="projects">
+        <article class="card"><div class="visual"><span>01 / E-COMMERCE SYSTEM</span></div><div class="card-body"><h3>ERAZER D75 电商详情页系统</h3><p>围绕 CPU、NPU、精巧机身与多场景应用，搭建 13 屏详情页叙事，并延展京东主图与卖点视觉。</p><div class="tags"><b>内容策划</b><b>视觉系统</b><b>AI 出图</b></div></div></article>
+        <article class="card"><div class="visual"><span>02 / BRAND DESIGN</span></div><div class="card-body"><h3>异能者品牌视觉与线下物料</h3><p>从 Logo 规范、品牌背书关系到展会易拉宝、广告扇与社媒打卡物料，保持品牌表达统一。</p><div class="tags"><b>品牌规范</b><b>活动物料</b><b>印刷设计</b></div></div></article>
+        <article class="card"><div class="visual"><span>03 / AI WORKFLOW</span></div><div class="card-body"><h3>电商详情页智能工作流</h3><p>将产品事实、卖点结构、页面节奏与生成提示词模块化，降低重复沟通，让设计生产更稳定。</p><div class="tags"><b>流程设计</b><b>提示词系统</b><b>效率工具</b></div></div></article>
+        <article class="card"><div class="visual"><span>04 / MOTION & CONTENT</span></div><div class="card-body"><h3>动态内容与企业传播</h3><p>参与年会视频、产品动态内容与渠道宣讲材料制作，让复杂信息以更清晰的节奏被理解。</p><div class="tags"><b>视频设计</b><b>内容表达</b><b>演示视觉</b></div></div></article>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div><p class="index">03 / ABOUT</p><h2>不只完成画面，<br>更建立可复用的设计方法。</h2><p class="lead">我专注于消费电子、电商视觉与品牌内容设计。工作中，我习惯先梳理产品事实与信息层级，再用清晰的视觉系统完成表达；同时把 AI 生成能力嵌入策划、提示词、出图与校验流程，让创意品质和交付效率同时提升。</p></div>
+      <div class="skills">
+        <div class="skill"><span>01</span><b>电商视觉</b><p>京东 / 天猫主图、详情页长图、卖点模块与多场景视觉延展。</p></div>
+        <div class="skill"><span>02</span><b>品牌设计</b><p>Logo 规范、品牌物料、展会视觉与跨渠道一致性管理。</p></div>
+        <div class="skill"><span>03</span><b>AI 工作流</b><p>提示词系统、图像生成规范、产品事实校验与设计提效工具。</p></div>
+        <div class="skill"><span>04</span><b>动态内容</b><p>产品视频、年会内容、演示文稿与视觉化叙事。</p></div>
+      </div>
+    </section>
+    <section class="impact">
+      <div class="heading"><div><p class="index">04 / IMPACT</p><h2>工作成果</h2></div></div>
+      <div class="impact-grid">
+        <article><small>AI × DESIGN</small><h3>设计提效</h3><p>把重复的卖点提炼、页面规划与提示词编写沉淀为可复用流程。</p></article>
+        <article><small>PRODUCT STORY</small><h3>内容系统</h3><p>完成迷你主机主图、详情页与参数视觉的系列化内容表达。</p></article>
+        <article><small>TOOL MAKING</small><h3>工具思维</h3><p>探索并自研产品文案与卖点生成工具，让设计从执行延伸到流程建设。</p></article>
+        <article><small>MULTI-MEDIA</small><h3>多媒体表达</h3><p>覆盖电商图、品牌物料、演示文稿与年会视频等多种内容形态。</p></article>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <p class="index">05 / CONTACT</p>
+      <div class="contact-main"><h2>有合适的项目，<br>我们聊聊。</h2><div><p>欢迎沟通电商视觉、品牌设计、<br>AI 设计流程与内容系统项目。</p><p class="note">可通过你收到这份简历的渠道联系我</p></div></div>
+      <a class="top" href="#top">返回顶部 ↑</a>
+    </section>
+  </main>
+  <footer><span>© 2026 李婷婷</span><span>VISUAL DESIGN · BRAND · AI WORKFLOW</span></footer>
+</body>
+</html>
